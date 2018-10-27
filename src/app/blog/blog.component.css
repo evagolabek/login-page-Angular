@@ -85,3 +85,7 @@ width: 230px;
 height: 40px;
 background: url(../../assets/login-ms.png);
 }
+
+.login__button {
+  background-repeat: no-repeat;
+}
