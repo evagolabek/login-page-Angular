@@ -65,6 +65,19 @@ div {
   line-height: 1.2;
 }
 
+.blog__title::after {
+  display: block;
+  margin: 8px 0;
+  width: 10%;
+  height: 2px;
+  background: #32bdee;
+  content: '';
+}
+
+.blog__meta {
+  margin: 16px 0;
+}
+
 a, button, form, input, label, select, textarea {
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
@@ -88,4 +101,12 @@ background: url(../../assets/login-ms.png);
 
 .login__button {
   background-repeat: no-repeat;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
