@@ -79,3 +79,9 @@ a {
 .blog__title {
     font-size: 21px;
 }
+
+.login__button--ms {
+width: 230px;
+height: 40px;
+background: url(../../assets/login-ms.png);
+}
