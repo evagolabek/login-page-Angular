@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-
+div {
+  display: block;
+}
 body { 
+background-color: rgba(54,66,91,.1);
 color: #36425b;
 font-family: Nunito,sans-serif;
 font-size: 16px;

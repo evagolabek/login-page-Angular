@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="350px" viewBox="0 0 1440 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>hero-overlay</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="37.3258172%" x2="14.0956829%" y2="57.7215011%" id="linearGradient-1">
+            <stop stop-color="#D7D9DE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D7D9DE" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#4FFFD5" offset="0%"></stop>
+            <stop stop-color="#0396FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Copy" transform="translate(0.000000, -480.000000)">
+            <g id="hero-overlay" transform="translate(-2.000000, 480.000000)">
+                <path d="M1440.08245,90 L1442,90 L1442,350 L2,350 L2,292.109308 L1440.08245,90 Z" id="Combined-Shape" fill="#EAECEE"></path>
+                <path d="M1442,89.140432 L1442,220.496429 L670,328.993953 L670,197.637956 L1442,89.140432 Z" id="Combined-Shape-Copy-7" fill="url(#linearGradient-1)"></path>
+                <path d="M1002,2.00506278e-13 L1002,195.496429 L1.04805054e-13,336.318345 L-5.68434189e-14,140.821916 L1002,1.91180405e-13 Z" id="Combined-Shape" fill="url(#linearGradient-2)" opacity="0.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
