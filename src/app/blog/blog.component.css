@@ -33,7 +33,7 @@ div {
   display: -ms-flexbox;
   display: flex;
   margin-right: -16px;
-  margin-left: -16px;
+  /* margin-left: -16px; */
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-orient: horizontal;
@@ -105,7 +105,7 @@ a {
 .login__button--ms {
 width: 230px;
 height: 40px;
-background: url(../../assets/login-ms.png);
+/* background: url(../../assets/login-ms.png); */
 }
 
 .login__button {

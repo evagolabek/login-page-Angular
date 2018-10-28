@@ -1,14 +1,29 @@
 <div class="grid">
   <div class="grid_row">
-      <div class="grid__col grid__col--half grid__col--my">
+      <div class="grid__col grid__col--half grid__col--my" *ngFor="let blogpost of blogposts">
+
         <a class="blog blog--login-ms" href="/klantportaal/login-ms">
-        <div class="blog__title"><font style="vertical-align: inherit;">
-          <font style="vertical-align: inherit;">LOGIN WITH YOUR OFFICE365 ACCOUNT</font></font>
-        </div>
-        <div class="blog__meta"><div class="login__button login__button--ms"></div>
-        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-          If you have an Office365 (Microsoft) account you can use it to log in to the Joheco customer portal.</font></font></p>
-        </div></a>
+
+          <div class="blog__title">
+            <font style="vertical-align: inherit;">
+             {{ blogpost.title }}
+            </font>
+          </div>
+
+          <div class="blog__meta">
+            <div class="login__button login__button--ms">
+              <img src= "{{ blogpost.imageUrl }}" alt="login-ms">
+            </div>
+            <p>
+              <font style="vertical-align: inherit;">
+                {{ blogpost.description }}
+              </font>
+            </p>
+
+          </div>
+          
+        </a>
+          
       </div>
   </div>
 </div>
