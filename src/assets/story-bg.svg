@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1439px" height="797px" viewBox="0 0 1439 797" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>story-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="55.2538919%" y1="87.1962344%" x2="46.3804798%" y2="12.6699109%" id="linearGradient-1">
+            <stop stop-color="#D7D9DE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D7D9DE" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Copy" transform="translate(-1.000000, -1369.000000)" fill="url(#linearGradient-1)">
+            <path d="M1442,1369 L1442,1962.68744 L1,2165.20679 L1,1571.51934 L1442,1369 Z" id="story-bg"></path>
+        </g>
+    </g>
+</svg>

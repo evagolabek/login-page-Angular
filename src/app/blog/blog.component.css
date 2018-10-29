@@ -3,9 +3,9 @@
   position: relative;
   margin-top: 45px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 300px;
   padding-right: 16px;
-  max-width: 1080px;
+  max-width: 1000px;
   width: 100%;
     
   }
@@ -21,9 +21,9 @@
 }
 
 .blog__col {
-  padding-left: 16px;
-  padding-right: 16px; 
-  max-width: 45%;
+  padding-left: 10px;
+  padding-right: 10px; 
+  max-width: 40%;
 }
 
 .blog {
