@@ -1,0 +1,13 @@
+
+.heading {
+  height: 270px;
+  margin-top: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  
+}
+
+.header_row {
+  background-image: url("../../assets/hero-overlay.svg");
+  margin-top: -25px;
+}
