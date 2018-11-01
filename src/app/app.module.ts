@@ -7,6 +7,9 @@ import { BlogComponent } from './blog/blog.component';
 import { HeaderComponent } from './header/header.component';
 import { QuestionsComponent } from './questions/questions.component';
 import { TableComponent } from './table/table.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule, MatSortModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,14 @@ import { TableComponent } from './table/table.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    // required to display the Material table:
+    MatFormFieldModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatInputModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
