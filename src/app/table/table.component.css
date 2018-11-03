@@ -11,6 +11,11 @@ td, th {
   width: 25%;
 }
 
-th.mat-sort-header-sorted {
-  color: black;
+/* Added class col1 to first column in order to add border on the right */
+.col1 {
+  border-right: 1px solid lightgray;
+} 
+/* the next columns must be padded on the left so they are not against the first column */
+.mat-cell, .mat-header-cell {
+  padding-left: 20px;
 }
