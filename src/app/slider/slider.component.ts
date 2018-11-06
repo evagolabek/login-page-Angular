@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, AfterViewInit, ElementRef } from '@angular/core';
+import { TableComponent } from '../table/table.component'
 
 @Component({
   selector: 'app-slider',
@@ -6,25 +7,29 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slider.component.css']
 })
 
-export class SliderComponent implements OnInit {
+export class SliderComponent implements OnInit, AfterViewInit {
 
   events: string[] = [];
   opened: boolean;
   shouldRun = true;
+
+  @ViewChild(TableComponent) tableRef: TableComponent;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  ngAfterViewInit(){
+    console.log(this.tableRef);
+  }
+
   closeSlider() {
     this.opened = false;
-    document.getElementById("overlay").style.display = "none";
   }
 
   openSlider() {
     this.opened = true;
-    document.getElementById("overlay").style.display = "block";
   }
 
 }

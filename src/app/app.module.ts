@@ -11,7 +11,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule, MatSortModule, MatCheckboxModule, MatSidenavModule, MatButtonModule } from '@angular/material';
 import { SliderComponent } from './slider/slider.component';
-import { UnderlayDirective } from './underlay.directive';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import { UnderlayDirective } from './underlay.directive';
     HeaderComponent,
     QuestionsComponent,
     TableComponent,
-    SliderComponent,
-    UnderlayDirective
+    SliderComponent
   ],
   imports: [
     BrowserModule,
