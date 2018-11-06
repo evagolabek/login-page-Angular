@@ -1,12 +1,14 @@
 <mat-sidenav-container class="example-container" *ngIf="shouldRun">
 
   <mat-sidenav #sidenav mode="side" position="end" [(opened)]="opened">
+      
     <app-table></app-table>
     <button (click)="closeSlider()" id="close-slider"> CLOSE-ME </button>
   </mat-sidenav> 
 
   <mat-sidenav-content>
-    <div id="overlay" click="closeSlider()"></div>
+      
+    <div id="overlay" appUnderlay click="closeSlider()"></div>
     <p><button mat-button (click)="openSlider()">slider open</button></p>   
   </mat-sidenav-content>
 
