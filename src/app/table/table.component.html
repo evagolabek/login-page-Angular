@@ -1,8 +1,9 @@
-<mat-form-field>
-  <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
-</mat-form-field>
 
-<div class="mat-elevation-z8">
+
+<div class="container" >
+
+    <mat-paginator [pageSizeOptions]="[2, 4, 8, 16]"></mat-paginator>
+    
   <table mat-table [dataSource]="dataSource" matSort>
 
     <!-- Name Column -->
@@ -34,6 +35,6 @@
     </tr>
   </table>
 
-  <mat-paginator [pageSizeOptions]="[2, 4, 8, 16]"></mat-paginator>
+  
 </div>
 

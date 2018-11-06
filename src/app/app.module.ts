@@ -9,7 +9,8 @@ import { QuestionsComponent } from './questions/questions.component';
 import { TableComponent } from './table/table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule, MatSortModule } from '@angular/material';
+import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule, MatSortModule, MatCheckboxModule, MatSidenavModule, MatButtonModule } from '@angular/material';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule,
     BlogComponent,
     HeaderComponent,
     QuestionsComponent,
-    TableComponent
+    TableComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,11 @@ import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule,
     MatTableModule,
     MatPaginatorModule,
     MatInputModule,
-    MatSortModule
+    MatSortModule,
+    MatCheckboxModule,
+    MatSidenavModule,
+    MatButtonModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
