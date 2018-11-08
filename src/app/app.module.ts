@@ -9,8 +9,9 @@ import { QuestionsComponent } from './questions/questions.component';
 import { TableComponent } from './table/table.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule, MatSortModule, MatCheckboxModule, MatSidenavModule, MatButtonModule } from '@angular/material';
+import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule, MatSortModule, MatCheckboxModule, MatSidenavModule, MatButtonModule, MatDialogModule } from '@angular/material';
 import { SliderComponent } from './slider/slider.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SliderComponent } from './slider/slider.component';
     HeaderComponent,
     QuestionsComponent,
     TableComponent,
-    SliderComponent
+    SliderComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { SliderComponent } from './slider/slider.component';
     MatSortModule,
     MatCheckboxModule,
     MatSidenavModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
 
   ],
   providers: [],
