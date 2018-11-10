@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BLOGPOSTS } from '../../mockdata'
+import { BLOGPOSTS } from '../../mockdata';
 
 @Component({
   selector: 'app-blog',
@@ -7,12 +7,13 @@ import { BLOGPOSTS } from '../../mockdata'
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-   
+
   blogposts = BLOGPOSTS; 
   
   constructor() { }
 
   ngOnInit() {
   }
+
 
 }
