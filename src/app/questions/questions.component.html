@@ -1,7 +1,8 @@
 <div class ="questions">
 
-<h2>Questions or problems with logging in?</h2>
+<h2 mat-dialog-title>Questions or problems with logging in?</h2>
 
+<mat-dialog-content>
 Will it not be possible to log in? Read the most frequently asked questions below:
 
 <h4>How do I register for a Microsoft account?</h4>
@@ -26,6 +27,12 @@ Do you want to delete your personal account? Log in to the Joheco dashboard, go 
 
 Do you still have problems logging in after reading the questions above? Then contact our service desk.
 
-
-
+<!-- printing-out the component class property -->
+<strong>{{data}}</strong>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button (click)="onCloseConfirm()">CONFIRM</button>
+  <button mat-raised-button (click)="onCloseCancel()">CANCEL</button>
+</mat-dialog-actions>
 </div>
+
