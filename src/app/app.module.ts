@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule, MatSortModule, MatCheckboxModule, MatSidenavModule, MatButtonModule, MatDialogModule } from '@angular/material';
 import { SliderComponent } from './slider/slider.component';
+import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SliderComponent } from './slider/slider.component';
     HeaderComponent,
     QuestionsComponent,
     TableComponent,
-    SliderComponent
+    SliderComponent,
+    DialogDemoComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,6 @@ import { SliderComponent } from './slider/slider.component';
     MatCheckboxModule,
     MatSidenavModule,
     MatButtonModule,
-    MatDialogModule,
     MatDialogModule
 
   ],
