@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule, MatSortModule, MatCheckboxModule, MatSidenavModule, MatButtonModule, MatDialogModule } from '@angular/material';
 import { SliderComponent } from './slider/slider.component';
 import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+
     // required to display the Material table:
     MatFormFieldModule,
     MatTableModule,
@@ -37,7 +39,10 @@ import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
     MatCheckboxModule,
     MatSidenavModule,
     MatButtonModule,
-    MatDialogModule
+
+    //dialog-modal
+    MatCardModule,
+    MatDialogModule 
 
   ],
   entryComponents: [
