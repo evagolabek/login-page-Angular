@@ -9,11 +9,13 @@ import { QuestionsComponent } from '../questions/questions.component';
 //data is an example of passing custom property
 
 //dialogRef is the reference which is returned to you and gives us access to the dialog, subscribe 
+
 @Component({
   selector: 'app-dialog-demo',
   templateUrl: './dialog-demo.component.html',
   styleUrls: ['./dialog-demo.component.css']
 })
+
 export class DialogDemoComponent implements OnInit {
 
   dialogResult = "";
@@ -24,17 +26,15 @@ export class DialogDemoComponent implements OnInit {
   }
 
   openDialog() {
+
     let dialogRef = this.dialog.open(QuestionsComponent, {
       width: '600px',
       data: 'XXXX This is my text XXXX',
     });
   
-
     dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog closed ${result}');
-      this.dialogResult = result
-    })
-
+      console.log(`Dialog closed ${result}`);
+      this.dialogResult = result;
+    });
   }
-
 }
