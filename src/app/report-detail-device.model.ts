@@ -5,4 +5,5 @@ export interface ReportDetailDevice {
   deviceId: string;
   operatingSystem: string;
   ipAddress: string;
+  
 }

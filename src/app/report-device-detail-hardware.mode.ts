@@ -1,3 +1,5 @@
+import {ReportDeviceDetailSoftware} from './report-device-detail-software.model'
+
 export interface ReportDeviceDetailHardware {
   id: number;
   deviceId: number;
@@ -5,4 +7,5 @@ export interface ReportDeviceDetailHardware {
   size: number;
   freeSpace: number;
   percentageUsed: number;
+  software: ReportDeviceDetailSoftware[];
 }
