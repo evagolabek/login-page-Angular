@@ -47,7 +47,6 @@ import {MatCardModule} from '@angular/material/card';
   ],
   entryComponents: [
    QuestionsComponent,
-   BlogComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

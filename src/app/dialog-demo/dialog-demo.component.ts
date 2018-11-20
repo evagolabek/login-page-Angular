@@ -6,7 +6,7 @@ import { QuestionsComponent } from '../questions/questions.component';
 
 //open service message is used to open the dialog, need to pass another component
 
-//data is an example of passimng custom property
+//data is an example of passing custom property
 
 //dialogRef is the reference which is returned to you and gives us access to the dialog, subscribe 
 @Component({
@@ -23,18 +23,18 @@ export class DialogDemoComponent implements OnInit {
   ngOnInit() {
   }
 
-  openDialog(){
+  openDialog() {
     let dialogRef = this.dialog.open(QuestionsComponent, {
       width: '600px',
-      data: 'This is my text',
+      data: 'XXXX This is my text XXXX',
     });
   
 
-  dialogRef.afterClosed().subscribe(result => {
-    console.log(`Dialog closed ${result}');
-    this.dialogResult = result
-  })
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog closed ${result}');
+      this.dialogResult = result
+    })
 
- }
+  }
 
 }
