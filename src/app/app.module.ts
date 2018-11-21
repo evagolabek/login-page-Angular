@@ -13,6 +13,7 @@ import { MatFormFieldModule, MatTableModule, MatPaginatorModule, MatInputModule,
 import { SliderComponent } from './slider/slider.component';
 import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import {MatCardModule} from '@angular/material/card';
+import { TableContainerComponent } from './table-container/table-container.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {MatCardModule} from '@angular/material/card';
     QuestionsComponent,
     TableComponent,
     SliderComponent,
-    DialogDemoComponent
+    DialogDemoComponent,
+    TableContainerComponent
   ],
   imports: [
     BrowserModule,
