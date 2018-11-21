@@ -14,6 +14,8 @@ import { SliderComponent } from './slider/slider.component';
 import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import {MatCardModule} from '@angular/material/card';
 import { TableContainerComponent } from './table-container/table-container.component';
+import { TextDisplayComponent } from './text-display/text-display.component';
+
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { TableContainerComponent } from './table-container/table-container.compo
     TableComponent,
     SliderComponent,
     DialogDemoComponent,
-    TableContainerComponent
+    TableContainerComponent,
+    TextDisplayComponent,
   ],
   imports: [
     BrowserModule,
