@@ -1,8 +1,9 @@
 import {Component, OnInit, ViewChild, Input} from '@angular/core';
 import {MatPaginator, MatSort, MatTableDataSource} from '@angular/material';
-//import {ReportDeviceDetailSoftware} from '../report-device-detail-software.model'
-//import { ReportDeviceDetailHardware } from '../report-device-detail-hardware.mode'
+import {ReportDeviceDetailSoftware} from '../report-device-detail-software.model'
+import { ReportDeviceDetailHardware } from '../report-device-detail-hardware.mode'
 import {Item} from '../item.model'
+
 
 @Component({
   selector: 'app-table',
@@ -11,10 +12,10 @@ import {Item} from '../item.model'
 })
 
 export class TableComponent implements OnInit {
-  @Input() tableModel: TableModel<T>;
+  @Input() tableModel: TableModel<any>;
 
   displayedColumns: string[];
-  header: T ;
+  // header: T
   dataSource: MatTableDataSource<Item>;
   test: object;
 
@@ -36,7 +37,7 @@ export class TableComponent implements OnInit {
     //   sports: DATA3[0].software.map(i => ({sport: i.name}))
     // }
 
-    // console.log(this.test)
+    console.log(this.test)
   }
 
   applyFilter(filterValue: string) {

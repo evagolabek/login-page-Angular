@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material';
-import { QuestionsComponent } from '../questions/questions.component';
+//import { QuestionsComponent } from '../questions/questions.component';
+import { MyDialogComponent } from '../my-dialog/my-dialog.component';
 
 //example of syntax for injecting the service into a class is done by injecting in the constructor as a parameter using the 'public' keyword and the class member dialog should be of type MatDialog, now you are able to access all the instance of Matdialog using the class member 
 
@@ -27,7 +28,7 @@ export class DialogDemoComponent implements OnInit {
 
   openDialog() {
 
-    let dialogRef = this.dialog.open(QuestionsComponent, {
+    let dialogRef = this.dialog.open(MyDialogComponent, {
       width: '600px',
       data: 'XXXX This is my text XXXX',
     });
