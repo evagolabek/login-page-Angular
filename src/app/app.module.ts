@@ -54,6 +54,7 @@ import { MyDialogComponent } from './my-dialog/my-dialog.component';
   ],
   entryComponents: [
    QuestionsComponent,
+   MyDialogComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
