@@ -15,7 +15,7 @@ import { DialogDemoComponent } from './dialog-demo/dialog-demo.component';
 import {MatCardModule} from '@angular/material/card';
 import { TableContainerComponent } from './table-container/table-container.component';
 import { TextDisplayComponent } from './text-display/text-display.component';
-import { MyDialogComponent } from './my-dialog/my-dialog.component';
+import { AnythingComponent } from './anything/anything.component';
 
 
 
@@ -30,7 +30,7 @@ import { MyDialogComponent } from './my-dialog/my-dialog.component';
     DialogDemoComponent,
     TableContainerComponent,
     TextDisplayComponent,
-    MyDialogComponent,
+    AnythingComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +54,7 @@ import { MyDialogComponent } from './my-dialog/my-dialog.component';
   ],
   entryComponents: [
    QuestionsComponent,
-   MyDialogComponent
+   AnythingComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
